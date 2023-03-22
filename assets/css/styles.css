@@ -44,3 +44,52 @@ header nav a {
   .line-title{
     text-decoration-line: underline;
   }
+  main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: -50px;
+  }
+  .first-building{
+    max-width: 1195;
+    height: 600px;
+    border-radius: 28px;
+  }
+  .text-section{
+    color:#171717 ;
+    font-size: 28px;
+    font-family:HelveticaNeueBold;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+  .buildings{
+    display: flex;
+    gap: 25px;
+  }
+  .image-building{
+    max-width:219px ;
+    max-height:219 px ;
+    border-radius:15px ;
+  }
+ .textsection2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px;
+ }
+ p {
+    max-width: 951px;
+    margin-top: 18px;
+    color: #171717;
+    font-size: 16px;
+    font-family: HelveticaNeue;
+ }
+ .information {
+    padding: 18px 67px;
+    border-radius: 28px;
+    background-color: #0A22F4;
+    color: #ffffff;
+    margin-top: 60px;
+    font-family:HelveticaNeueBold ;
+ }
