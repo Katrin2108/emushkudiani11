@@ -6,11 +6,13 @@
 header {
     background-color: #0020F4;
     padding-bottom: 65px;
+    flex-wrap: wrap;
 }
 .div-title{
   display: flex;
+  flex-wrap:wrap ;
   justify-content: space-around;
-  width: 100%;
+  max-width: 100%;
   padding-top: 40px;
 }
 header nav a {
@@ -47,11 +49,11 @@ header nav a {
   main {
     display: flex;
     justify-content: center;
-    width: 100%;
+    max-width: 100%;
     margin-top: -50px;
   }
   .first-building{
-    max-width: 1195;
+    max-width: 1195px;
     height: 600px;
     border-radius: 28px;
   }
@@ -209,3 +211,22 @@ header nav a {
  .twesmarb{
     margin-left: 30px;
  }
+
+@media (width <= 768px){
+    header {
+        background-color: #0020F4;
+        max-width:375px ;
+        max-height:185px ;
+    }
+    .div-title{
+        flex-wrap:wrap ;
+        justify-content: space-around;
+        max-width: 100%;
+    }
+    main {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        margin-top: -50px;
+      }
+    }
